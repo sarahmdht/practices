@@ -1,0 +1,28 @@
+﻿Search Algorithm
+
+Big O Notation “O(n)”:
+the worst runtime for a given algorithm. Measured by no. of operations running
+
+Algorithm:
+is the step-by-step procedures for solving a problem or the plan to start coding.
+A way of thinking and organizing steps before coding.
+Must be clear and care for time complexity.
+Examples:
+step1: start
+step2: define inputs and make variables for them
+step3: problem
+step4: output
+step5:end
+
+also can use flow charts
+
+const students = ["Adam", "Reham", "Mohamed", "Mona", "Ahmed"];
+
+
+Linear Search:
+best case when data is not sorted
+search index-by-index
+
+Binary Search:
+for sorted data
+it sets right point, left point, and mid point in the array and search where will be the value and update them (elimination to shorten the array)
