@@ -1,3 +1,4 @@
+// moving in bubble to list the largest amount at the end and so on
 // Swap Function 
 const swap = (array, x, y) => {
     let temp = array[x];

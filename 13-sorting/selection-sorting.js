@@ -1,3 +1,5 @@
+// sort array by defining a min and 2 points to compare values and swap them
+
 // Swap Function 
 const swap = (array, x, y) => {
     let temp = array[x];

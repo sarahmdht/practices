@@ -1,5 +1,5 @@
 /*
-Function: Insertion sorting for Array
+Function: Insertion sorting for Array by taking an element and placing it when it find a value that is less than it and shift the rest
 Inputs(params):Array - Unordered list to be arranged
 Output: Array - sorted array
 */
