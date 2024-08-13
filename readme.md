@@ -3,4 +3,7 @@ This is a practice space for:
 outputs - variables - arithmatic - reviews - circle - age - power - comparisons - functions - objects - arrays
 
 # Algorithm:
-Search - Sorting(3 types)
+Search - Sorting(5 types)
+
+# OOP
+object - getters and setters- inheritance - polymorphism

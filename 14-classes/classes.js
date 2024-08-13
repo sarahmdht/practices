@@ -36,4 +36,4 @@ const Roy = new Animal(50, "Brown", "black");
 
 // console.log(Shokry);
 Shokry._Weight = 500;
-console.log(Shokry.displayWeight);
+Shokry.sound();
