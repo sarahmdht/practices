@@ -4,10 +4,8 @@ class Animal {
         this.weight = weight;
         this.color = color;
     }
-
-
     makeSound() {
-        console.log("beeb beeb")
+        console.log("No Sound!");
     }
 }
 
@@ -15,6 +13,13 @@ class Rabbit extends Animal {
     constructor(weight, color, hairColor){
         super(weight, color); //call parent constructor
         this.hair = hairColor;
+    }
+// override the parent
+    makeSound() {
+        console.log("Rabbit Sound!");
+    }
+    jump() {
+        console.log("Jump!");
     }
 }
 
@@ -26,10 +31,10 @@ class Dog extends Animal {
 }
 // const Shokry = new Animal(100, "blue", "white");
 const Shokry = new Rabbit(100, "blue", "white");
-
 const Roy = new Dog(50, "Brown", 20);
-console.log(Shokry);
-console.log(Roy);
 
-// Shokry.makeSound();
-// Roy.makeSound();
+console.log(Shokry);
+Shokry.makeSound();
+
+console.log(Roy);
+Roy.makeSound();
